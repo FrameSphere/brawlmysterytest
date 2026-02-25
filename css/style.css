@@ -894,6 +894,7 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 4px;
+    position: relative; /* anchor for .lang-slider */
     background: rgba(10, 10, 20, 0.72);
     border: 1px solid rgba(255, 255, 255, 0.10);
     border-radius: 999px;
@@ -904,6 +905,22 @@ body {
         0 4px 24px rgba(0, 0, 0, 0.45),
         inset 0 1px 0 rgba(255, 255, 255, 0.06);
     transition: box-shadow 0.3s ease;
+}
+
+/* Sliding pill indicator */
+.lang-slider {
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    left: 0;
+    width: 0;
+    background: rgba(255, 215, 0, 0.14);
+    border: 1px solid rgba(255, 215, 0, 0.40);
+    border-radius: 999px;
+    pointer-events: none;
+    z-index: 0;
+    /* transition is set dynamically via JS */
+    will-change: left, width;
 }
 
 .language-selector-inner:hover {
@@ -931,20 +948,15 @@ body {
     font-size: 0.78rem;
     font-weight: 600;
     border: 1px solid transparent;
-    transition: color 0.2s, background 0.2s, border-color 0.2s;
+    transition: color 0.2s;
     white-space: nowrap;
+    position: relative;
+    z-index: 1; /* above .lang-slider */
 }
 
-.lang-link:hover {
-    color: var(--accent);
-    background: rgba(255, 215, 0, 0.10);
-    border-color: rgba(255, 215, 0, 0.25);
-}
-
+.lang-link:hover,
 .lang-link.active {
     color: var(--accent);
-    background: rgba(255, 215, 0, 0.13);
-    border-color: rgba(255, 215, 0, 0.35);
 }
 
 /* Mobile: even more compact */
