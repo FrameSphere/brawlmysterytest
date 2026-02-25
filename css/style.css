@@ -38,20 +38,13 @@ body {
 /* ============================================
    LANGUAGE SELECTOR
    ============================================ */
-.language-selector {
-    position: fixed;
-    top: 15px;
-    right: 15px;
-    z-index: 1000;
-}
-
 .language-selector select {
     background: rgba(20, 20, 40, 0.85);
     border: 2px solid rgba(138, 43, 226, 0.6);
     border-radius: 8px;
     padding: 6px 12px;
     color: #ffffff;
-    font-size: 1rem; /* 16px */
+    font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
     outline: none;
@@ -887,32 +880,86 @@ body {
     font-weight: 600;
 }
 
-/* ===== Language Navigation ===== */
+/* ===== Language Navigation – Dynamic Island ===== */
 .language-selector {
     display: flex;
     justify-content: center;
-    gap: 8px;
-    padding: 8px 12px;
-    background: rgba(0,0,0,0.3);
+    padding: 12px 16px 4px;
     position: relative;
     z-index: 10;
 }
 
-.lang-link {
-    color: var(--text-secondary);
-    text-decoration: none;
-    padding: 4px 10px;
-    border-radius: 6px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    border: 1px solid transparent;
-    transition: all 0.2s;
+/* The pill itself wraps only its content */
+.language-selector-inner {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: rgba(10, 10, 20, 0.72);
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 999px;
+    padding: 5px 10px;
+    backdrop-filter: blur(18px) saturate(160%);
+    -webkit-backdrop-filter: blur(18px) saturate(160%);
+    box-shadow:
+        0 4px 24px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    transition: box-shadow 0.3s ease;
 }
 
-.lang-link:hover, .lang-link.active {
+.language-selector-inner:hover {
+    box-shadow:
+        0 6px 30px rgba(0, 0, 0, 0.55),
+        0 0 0 1px rgba(255, 215, 0, 0.12),
+        inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+/* If no .language-selector-inner exists (guide pages use nav directly),
+   fall back to a flex-wrap pill on the nav itself */
+.language-selector:not(:has(.language-selector-inner)) {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    flex-wrap: wrap;
+    padding: 12px 16px 4px;
+}
+
+.lang-link {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    border: 1px solid transparent;
+    transition: color 0.2s, background 0.2s, border-color 0.2s;
+    white-space: nowrap;
+}
+
+.lang-link:hover {
     color: var(--accent);
-    border-color: var(--accent);
-    background: rgba(255, 215, 0, 0.08);
+    background: rgba(255, 215, 0, 0.10);
+    border-color: rgba(255, 215, 0, 0.25);
+}
+
+.lang-link.active {
+    color: var(--accent);
+    background: rgba(255, 215, 0, 0.13);
+    border-color: rgba(255, 215, 0, 0.35);
+}
+
+/* Mobile: even more compact */
+@media (max-width: 480px) {
+    .language-selector {
+        padding: 8px 10px 2px;
+    }
+    .language-selector-inner {
+        padding: 4px 8px;
+        gap: 2px;
+    }
+    .lang-link {
+        padding: 3px 7px;
+        font-size: 0.72rem;
+    }
 }
 
 /* ===== SEO Section ===== */
@@ -957,6 +1004,10 @@ body {
     color: var(--text-secondary);
     line-height: 1.7;
     font-size: 0.9rem;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 0 0 12px 12px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
 }
 
 .seo-inner h2 {

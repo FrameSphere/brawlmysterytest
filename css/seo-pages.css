@@ -1,0 +1,157 @@
+/* ============================================
+   SEO PAGES – Guide & further SEO content pages
+   Used by: de/guide.html, en/guide.html,
+            fr/guide.html, es/guide.html, it/guide.html
+   ============================================ */
+
+/* ── Guide Layout ── */
+.guide-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 16px 40px;
+}
+
+/* Contrast backdrop for guide text */
+.guide-container > *:not(.back-bar) {
+    position: relative;
+}
+
+.guide-body-wrap {
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 16px;
+    padding: 28px 24px 32px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    margin-top: 8px;
+}
+
+/* ── Headings ── */
+.guide-container h1 {
+    color: var(--accent);
+    font-size: 1.7rem;
+    margin-bottom: 8px;
+}
+
+.guide-container h2 {
+    color: var(--accent);
+    font-size: 1.3rem;
+    margin: 32px 0 10px;
+    border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+    padding-bottom: 6px;
+}
+
+.guide-container h3 {
+    color: var(--text-primary);
+    font-size: 1.05rem;
+    margin: 20px 0 8px;
+}
+
+/* ── Body text ── */
+.guide-container p {
+    color: var(--text-secondary);
+    line-height: 1.75;
+    margin: 0 0 12px;
+    font-size: 0.95rem;
+}
+
+.guide-container ul {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    padding-left: 20px;
+    font-size: 0.95rem;
+}
+
+.guide-container ul li {
+    margin-bottom: 6px;
+}
+
+.guide-container a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.guide-container a:hover {
+    text-decoration: underline;
+}
+
+/* ── Meta line ── */
+.guide-meta {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.8rem;
+    margin-bottom: 24px;
+}
+
+/* ── Tip box ── */
+.tip-box {
+    background: rgba(255, 215, 0, 0.06);
+    border: 1px solid rgba(255, 215, 0, 0.25);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin: 16px 0;
+}
+
+.tip-box strong {
+    color: var(--accent);
+}
+
+/* ── Back bar ── */
+.back-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.back-bar a {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+}
+
+.back-bar a:hover {
+    color: var(--accent);
+}
+
+/* ── FAQ ── */
+.faq-item {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.faq-q {
+    padding: 14px 16px;
+    cursor: pointer;
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-q:hover {
+    color: var(--accent);
+}
+
+.faq-a {
+    padding: 0 16px 14px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.7;
+    display: none;
+}
+
+.faq-item.open .faq-a {
+    display: block;
+}
+
+/* ── Hidden schema helper ── */
+.schema-hint {
+    display: none;
+}
