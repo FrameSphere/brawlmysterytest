@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Brawl Mystery – Quiz Brawl Stars quotidien | 4 modes gratuits</title>
+    <meta name="description" content="Devinez chaque jour un Brawler Brawl Stars secret ! 4 modes de jeu : Classique, Pixel, Emoji et Description. Quiz Brawl Stars quotidien gratuit – testez vos connaissances !">
+    <meta name="keywords" content="Brawl Stars quiz, deviner brawler, Brawl Mystery, jeu Brawl Stars, défi quotidien, puzzle Brawl Stars, Wordle Brawl Stars">
+    <link rel="canonical" href="https://brawlmystery.pages.dev/fr/">
+    <link rel="alternate" hreflang="de" href="https://brawlmystery.pages.dev/de/">
+    <link rel="alternate" hreflang="en" href="https://brawlmystery.pages.dev/en/">
+    <link rel="alternate" hreflang="fr" href="https://brawlmystery.pages.dev/fr/">
+    <link rel="alternate" hreflang="es" href="https://brawlmystery.pages.dev/es/">
+    <link rel="alternate" hreflang="it" href="https://brawlmystery.pages.dev/it/">
+    <link rel="alternate" hreflang="x-default" href="https://brawlmystery.pages.dev/de/">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3654554314003005" crossorigin="anonymous"></script>
+
+    <meta property="og:title" content="Brawl Mystery – Quiz Brawl Stars quotidien">
+    <meta property="og:description" content="Devinez chaque jour un Brawler secret en 4 modes différents. Quiz gratuit pour fans de Brawl Stars !">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://brawlmystery.pages.dev/fr/">
+    <meta property="og:site_name" content="Brawl Mystery">
+    <meta property="og:image" content="https://brawlmystery.pages.dev/assets/og-image.svg">
+
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Brawl Mystery",
+      "url": "https://brawlmystery.pages.dev/fr/",
+      "description": "Quiz Brawl Stars quotidien : devinez des Brawlers en 4 modes – Classique, Pixel, Emoji et Description.",
+      "applicationCategory": "Game",
+      "inLanguage": "fr",
+      "operatingSystem": "Web Browser",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+    }
+    </script>
+</head>
+<body>
+    <nav class="language-selector">
+        <a href="/de/" class="lang-link" title="Deutsch">🇩🇪 DE</a>
+        <a href="/en/" class="lang-link" title="English">🇬🇧 EN</a>
+        <a href="/fr/" class="lang-link active" title="Français">🇫🇷 FR</a>
+        <a href="/es/" class="lang-link" title="Español">🇪🇸 ES</a>
+        <a href="/it/" class="lang-link" title="Italiano">🇮🇹 IT</a>
+    </nav>
+
+    <div class="container">
+        <header class="header"><h1 class="title">Brawl Mystery</h1></header>
+
+        <div id="cooldown-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header"><span class="modal-close">&times;</span></div>
+                <div class="modal-body">
+                    <div class="modal-icon"><svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div>
+                    <h2 class="modal-title" id="modal-title">Mode verrouillé</h2>
+                    <p class="modal-text" id="modal-text"></p>
+                    <div class="modal-actions">
+                        <button class="modal-btn watch-ad-btn" id="watch-ad-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg><span>Regarder une pub</span></button>
+                        <button class="modal-btn unlock-all-btn" id="unlock-all-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 9.9-1"></path></svg><span>Tout débloquer</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="about-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header"><span class="modal-close" onclick="closeAboutModal()">&times;</span></div>
+                <div class="modal-body">
+                    <div class="modal-icon"><svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                    <h2 class="modal-title">À propos de Brawl Mystery</h2>
+                    <div class="modal-text about-content">
+                        <p>Brawl Mystery est un <strong>jeu de devinettes Brawl Stars</strong> quotidien où les joueurs doivent deviner des <strong>Brawlers</strong> secrets. Le <strong>quiz</strong> propose plusieurs modes de jeu pour les vrais fans de Brawl Stars.</p>
+                        <h3>Nos modes de jeu :</h3>
+                        <ul class="about-list">
+                            <li><strong>Classique :</strong> Devinez le Brawler en fonction de ses attributs</li>
+                            <li><strong>Pixel :</strong> Identifiez le Brawler dans l'image pixelisée</li>
+                            <li><strong>Emoji :</strong> Découvrez quel Brawler se cache derrière les emojis</li>
+                            <li><strong>Description :</strong> Devinez le Brawler d'après sa description de personnage</li>
+                        </ul>
+                        <p>Chaque jour un nouveau <strong>défi Brawl Stars</strong> vous attend. Testez vos connaissances et devenez l'expert ultime de Brawl Stars !</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="game-modes-section">
+            <h2 class="section-title">Défis quotidiens</h2>
+            <p class="section-description">Choisissez l'un des 4 modes de jeu et devinez le Brawler secret !</p>
+        </section>
+
+        <div class="daily-progress">
+            <div class="progress-item" data-mode="classic">
+                <div class="progress-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
+                <span>Classique</span>
+            </div>
+            <div class="progress-item" data-mode="pixel">
+                <div class="progress-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></div>
+                <span>Pixel</span>
+            </div>
+            <div class="progress-item" data-mode="emoji"><div class="progress-icon">😊</div><span>Emoji</span></div>
+            <div class="progress-item" data-mode="description">
+                <div class="progress-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+                <span>Description</span>
+            </div>
+        </div>
+
+        <div class="game-content">
+            <div class="game-mode active" id="classic-mode">
+                <div class="search-container"><input type="text" id="search" placeholder="Rechercher un Brawler..."><div id="results" class="search-results"></div></div>
+                <div id="guesses" class="guesses-grid"></div>
+                <div id="result" class="result-message"></div>
+            </div>
+            <div class="game-mode" id="pixel-mode">
+                <div class="pixel-container"><canvas id="pixel-canvas" class="pixel-canvas"></canvas></div>
+                <div class="search-container"><input type="text" id="pixel-search" placeholder="Rechercher un Brawler..."><div id="pixel-results" class="search-results"></div></div>
+                <div id="pixel-guesses" class="guesses-list"></div>
+                <div id="pixel-result" class="result-message"></div>
+            </div>
+            <div class="game-mode" id="emoji-mode">
+                <div class="emoji-container"><div id="emoji-display" class="emoji-display"></div></div>
+                <div class="search-container"><input type="text" id="emoji-search" placeholder="Rechercher un Brawler..."><div id="emoji-results" class="search-results"></div></div>
+                <div id="emoji-guesses" class="guesses-list"></div>
+                <div id="emoji-result" class="result-message"></div>
+            </div>
+            <div class="game-mode" id="description-mode">
+                <div class="description-container"><div id="description-text" class="description-text"></div></div>
+                <div class="search-container"><input type="text" id="description-search" placeholder="Rechercher un Brawler..."><div id="description-results" class="search-results"></div></div>
+                <div id="description-guesses" class="guesses-list"></div>
+                <div id="description-result" class="result-message"></div>
+            </div>
+        </div>
+
+        <div class="ad-container" style="text-align:center;margin:20px 0;">
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3654554314003005" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+
+        <section class="seo-section">
+            <button class="seo-toggle" onclick="toggleSEO(this)" aria-expanded="false">
+                <span>Qu'est-ce que Brawl Mystery ? – Guide &amp; Conseils</span>
+                <svg class="seo-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="seo-content" hidden>
+                <div class="seo-inner">
+                    <h2>Brawl Mystery – Le quiz Brawl Stars quotidien</h2>
+                    <p>Brawl Mystery est un quiz en ligne gratuit et quotidien pour tous les fans de <strong>Brawl Stars</strong>. Inspiré du principe Wordle, vous devez chaque jour deviner un Brawler secret – avec 4 modes de jeu différents ! Que vous identifiiez les Brawlers par leurs statistiques, des images pixelisées, des emojis ou une description de personnage : vos connaissances de Brawl Stars seront vraiment mises à l'épreuve.</p>
+
+                    <h3>Les 4 modes de jeu expliqués</h3>
+                    <p><strong>Mode Classique :</strong> Saisissez un nom de Brawler et obtenez un retour immédiat. Le tableau vous indique si les valeurs du Brawler cible sont plus hautes ou plus basses. Comparez Rareté, Rôle, Portée, Vitesse, Points de vie et Année de sortie pour trouver le bon Brawler.</p>
+                    <p><strong>Mode Pixel :</strong> Commencez avec une image très pixelisée d'un Brawler. À chaque mauvaise réponse, l'image devient un peu plus nette. Saurez-vous identifier le Brawler avant que l'image soit entièrement révélée ?</p>
+                    <p><strong>Mode Emoji :</strong> Trois emojis décrivent le Brawler cible – mais au début, vous n'en voyez qu'un. À chaque erreur, un nouvel emoji est révélé. Quel Brawler se cache derrière 🔫💥👢 ?</p>
+                    <p><strong>Mode Description :</strong> Voyez une description du personnage cible – mais la plupart des mots sont cachés au départ. À chaque tentative, de nouveaux mots sont révélés. Lisez attentivement pour déduire de quel Brawler il s'agit.</p>
+
+                    <h3>Conseils pour les débutants</h3>
+                    <p>Débutez avec le <strong>Mode Classique</strong> et commencez par des Brawlers connus comme Shelly, Colt ou Bull pour vous familiariser avec la mécanique de comparaison. Concentrez-vous sur la Rareté et le Rôle – ces deux valeurs réduisent le plus les possibilités.</p>
+
+                    <h3>Explorer davantage</h3>
+                    <p>La <a href="library.html">Bibliothèque de Brawlers</a> vous offre un aperçu de tous les Brawlers actuels avec leurs statistiques. Parfait pour étudier avant de jouer !</p>
+                    <p style="margin-top:12px;"><a href="guide.html" class="seo-link-btn">📖 Guide complet &amp; Stratégies →</a></p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <a href="library.html" class="footer-link">Bibliothèque</a>
+            <span class="footer-separator">·</span>
+            <a href="#" class="footer-link" onclick="openAboutModal(); return false;">À propos</a>
+            <span class="footer-separator">·</span>
+            <a href="../impressum.html" class="footer-link">Mentions légales</a>
+            <span class="footer-separator">·</span>
+            <a href="../datenschutz.html" class="footer-link">Confidentialité</a>
+        </footer>
+    </div>
+
+    <script>window.GAME_LANG = 'fr'; window.IMAGE_BASE = '../';</script>
+    <script src="../js/translations.js" defer></script>
+    <script src="../js/brawler-names.js" defer></script>
+    <script src="../js/brawlers.js" defer></script>
+    <script src="../js/play-limit.js" defer></script>
+    <script src="../js/game.js" defer></script>
+    <script src="../js/main-lang.js" defer></script>
+
+    <script>
+        function openAboutModal() { document.getElementById('about-modal').style.display = 'flex'; }
+        function closeAboutModal() { document.getElementById('about-modal').style.display = 'none'; }
+        window.addEventListener('click', function(e) { if (e.target === document.getElementById('about-modal')) closeAboutModal(); });
+        function toggleSEO(btn) {
+            const content = btn.nextElementSibling;
+            const expanded = btn.getAttribute('aria-expanded') === 'true';
+            btn.setAttribute('aria-expanded', !expanded);
+            content.hidden = expanded;
+            btn.querySelector('.seo-chevron').style.transform = expanded ? '' : 'rotate(180deg)';
+        }
+    </script>
+</body>
+</html>

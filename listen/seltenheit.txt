@@ -1,0 +1,40 @@
+DE
+EN
+FR
+ES
+IT
+Erster Brawler
+Starting Brawler
+Premier Brawler
+Brawler inicial
+Brawler iniziale
+Selten
+Rare
+Rare
+Especial
+Raro
+Superselten
+Super Rare
+Super rare
+Superespecial
+Super raro
+Episch
+Epic
+Épique
+Épico
+Epico
+Mythisch
+Mythic
+Mythique
+Mítico
+Mitico
+Legendär
+Legendary
+Légendaire
+Legendario
+Leggendario
+Ultralegendär
+Ultra Legendary
+Ultra légendaire
+Ultralegendario
+Ultraleggendario

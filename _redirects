@@ -1,0 +1,28 @@
+# ===============================
+# Cloudflare Pages Redirects
+# Brawl Stars Guess
+# ===============================
+
+# ---- Static assets (always serve directly)
+/css/*        /css/:splat        200
+/js/*         /js/:splat         200
+/images/*     /images/:splat     200
+/fonts/*      /fonts/:splat      200
+
+# ---- Ads.txt (important for AdSense)
+/ads.txt      /ads.txt           200
+
+# ---- Robots & Sitemap
+/robots.txt   /robots.txt        200
+/sitemap.xml  /sitemap.xml       200
+
+# ---- HTML Pages (must be before SPA fallback!)
+/library.html       /library.html        200
+/impressum.html     /impressum.html      200
+/datenschutz.html   /datenschutz.html    200
+
+# ---- Google Verification
+/google7ef57c38ed213579.html   /google7ef57c38ed213579.html   200
+
+# ---- SPA Fallback (ALWAYS LAST RULE!)
+/*            /index.html        200

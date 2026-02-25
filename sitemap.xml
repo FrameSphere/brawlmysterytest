@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Root redirect -->
+  <url>
+    <loc>https://brawlmystery.pages.dev/</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- DE -->
+  <url>
+    <loc>https://brawlmystery.pages.dev/de/</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brawlmystery.pages.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brawlmystery.pages.dev/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brawlmystery.pages.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brawlmystery.pages.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brawlmystery.pages.dev/it/"/>
+  </url>
+  <url>
+    <loc>https://brawlmystery.pages.dev/de/library.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brawlmystery.pages.dev/de/library.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brawlmystery.pages.dev/en/library.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brawlmystery.pages.dev/fr/library.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brawlmystery.pages.dev/es/library.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brawlmystery.pages.dev/it/library.html"/>
+  </url>
+  <url>
+    <loc>https://brawlmystery.pages.dev/de/guide.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brawlmystery.pages.dev/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brawlmystery.pages.dev/en/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brawlmystery.pages.dev/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brawlmystery.pages.dev/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brawlmystery.pages.dev/it/guide.html"/>
+  </url>
+
+  <!-- EN -->
+  <url>
+    <loc>https://brawlmystery.pages.dev/en/</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brawlmystery.pages.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brawlmystery.pages.dev/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brawlmystery.pages.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brawlmystery.pages.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brawlmystery.pages.dev/it/"/>
+  </url>
+  <url>
+    <loc>https://brawlmystery.pages.dev/en/library.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brawlmystery.pages.dev/de/library.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brawlmystery.pages.dev/en/library.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brawlmystery.pages.dev/fr/library.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brawlmystery.pages.dev/es/library.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brawlmystery.pages.dev/it/library.html"/>
+  </url>
+  <url>
+    <loc>https://brawlmystery.pages.dev/en/guide.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brawlmystery.pages.dev/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brawlmystery.pages.dev/en/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brawlmystery.pages.dev/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brawlmystery.pages.dev/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brawlmystery.pages.dev/it/guide.html"/>
+  </url>
+
+  <!-- FR -->
+  <url>
+    <loc>https://brawlmystery.pages.dev/fr/</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brawlmystery.pages.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brawlmystery.pages.dev/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brawlmystery.pages.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brawlmystery.pages.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brawlmystery.pages.dev/it/"/>
+  </url>
+  <url>
+    <loc>https://brawlmystery.pages.dev/fr/library.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brawlmystery.pages.dev/de/library.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brawlmystery.pages.dev/en/library.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brawlmystery.pages.dev/fr/library.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brawlmystery.pages.dev/es/library.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brawlmystery.pages.dev/it/library.html"/>
+  </url>
+  <url>
+    <loc>https://brawlmystery.pages.dev/fr/guide.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brawlmystery.pages.dev/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brawlmystery.pages.dev/en/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brawlmystery.pages.dev/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brawlmystery.pages.dev/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brawlmystery.pages.dev/it/guide.html"/>
+  </url>
+
+  <!-- ES -->
+  <url>
+    <loc>https://brawlmystery.pages.dev/es/</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brawlmystery.pages.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brawlmystery.pages.dev/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brawlmystery.pages.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brawlmystery.pages.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brawlmystery.pages.dev/it/"/>
+  </url>
+  <url>
+    <loc>https://brawlmystery.pages.dev/es/library.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brawlmystery.pages.dev/de/library.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brawlmystery.pages.dev/en/library.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brawlmystery.pages.dev/fr/library.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brawlmystery.pages.dev/es/library.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brawlmystery.pages.dev/it/library.html"/>
+  </url>
+  <url>
+    <loc>https://brawlmystery.pages.dev/es/guide.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brawlmystery.pages.dev/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brawlmystery.pages.dev/en/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brawlmystery.pages.dev/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brawlmystery.pages.dev/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brawlmystery.pages.dev/it/guide.html"/>
+  </url>
+
+  <!-- IT -->
+  <url>
+    <loc>https://brawlmystery.pages.dev/it/</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brawlmystery.pages.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brawlmystery.pages.dev/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brawlmystery.pages.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brawlmystery.pages.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brawlmystery.pages.dev/it/"/>
+  </url>
+  <url>
+    <loc>https://brawlmystery.pages.dev/it/library.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brawlmystery.pages.dev/de/library.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brawlmystery.pages.dev/en/library.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brawlmystery.pages.dev/fr/library.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brawlmystery.pages.dev/es/library.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brawlmystery.pages.dev/it/library.html"/>
+  </url>
+  <url>
+    <loc>https://brawlmystery.pages.dev/it/guide.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://brawlmystery.pages.dev/de/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brawlmystery.pages.dev/en/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://brawlmystery.pages.dev/fr/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://brawlmystery.pages.dev/es/guide.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://brawlmystery.pages.dev/it/guide.html"/>
+  </url>
+
+  <!-- Legal -->
+  <url>
+    <loc>https://brawlmystery.pages.dev/impressum.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://brawlmystery.pages.dev/datenschutz.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+</urlset>

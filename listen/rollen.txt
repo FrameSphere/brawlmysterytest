@@ -1,0 +1,40 @@
+DE
+EN
+FR
+ES
+IT
+Damage-Dealer(in)
+Damage Dealer
+Dégâts Bruts
+Destructor
+Assalitore
+Schütze / Schützin
+Marksman
+Tir d’élite
+Tiro de élite
+Tiratore scelto
+Kontrolle
+Controller
+Contrôle
+Control
+Sorvegliante
+Artillerie
+Artillery
+Artillerie
+Artillería
+Artigliere
+Tank
+Tank
+Tank
+Tanque
+Tank
+Assassine
+Assassin
+Assassinat
+Asesino
+Sicario
+Unterstützer(in)
+Support
+Soutien
+Apoyo
+Supporto
