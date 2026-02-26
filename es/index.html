@@ -39,6 +39,44 @@
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
     }
     </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Brawl Mystery es gratuito?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sí, Brawl Mystery es completamente gratuito. No se requiere descarga ni registro – juega directamente en tu navegador." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuál es la diferencia entre Brawl Mystery y Wordle?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Wordle consiste en adivinar una palabra diaria. Brawl Mystery es un quiz especializado de Brawl Stars con 4 modos de juego donde adivinas Brawlers usando estadísticas, imágenes en píxel, emojis y descripciones de personajes." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuántas veces puedo jugar al día?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Cada uno de los 4 modos puede jugarse hasta 2 veces al día. Después hay una espera de 12 horas antes de que estén disponibles nuevas partidas." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Brawl Mystery es oficial de Supercell?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. Brawl Mystery es un proyecto de fans no oficial y no tiene ninguna afiliación con Supercell Oy. Brawl Stars™ es una marca registrada de Supercell." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo jugar en el móvil?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sí. El juego está completamente optimizado para dispositivos móviles y funciona directamente en tu navegador móvil sin descargas." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué modo es el más difícil?",
+          "acceptedAnswer": { "@type": "Answer", "text": "El Modo Descripción es el más desafiante, ya que solo se revelan unas pocas palabras a la vez. Los principiantes deben comenzar con el Modo Clásico." }
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <nav class="language-selector">
@@ -156,9 +194,48 @@
                     <h3>Consejos para principiantes</h3>
                     <p>¿Eres nuevo en Brawl Mystery? Empieza por el <strong>Modo Clásico</strong> con Brawlers conocidos como Shelly, Colt o Bull. Concéntrate en la Rareza y el Rol, ya que estos dos valores reducen más las posibilidades. En el Modo Píxel, fíjate en los colores y siluetas, ya que cada Brawler tiene un diseño único.</p>
 
+                    <h3>Brawl Mystery vs Wordle – ¿Cuál es la diferencia?</h3>
+                    <p>Inspirado en el formato Wordle, Brawl Mystery va mucho más allá: en lugar de letras, todo gira en torno a tu <strong>conocimiento de Brawl Stars</strong>. Este <strong>quiz Brawl Stars diario</strong> te desafía en 4 modos distintos: desde el estratégico <strong>juego de adivinanzas Brawl Stars</strong> hasta el visual <strong>quiz Brawl Stars online</strong>. Ningún otro <strong>quiz de Brawl Stars gratis</strong> ofrece esta combinación de variedad, rejugabilidad diaria y acceso sin coste.</p>
+
                     <h3>Explora más</h3>
                     <p>La <a href="library.html">Biblioteca de Brawlers</a> te ofrece una visión general de todos los Brawlers actuales con sus estadísticas. ¡Perfecto para estudiar antes de jugar!</p>
                     <p style="margin-top:12px;"><a href="guide.html" class="seo-link-btn">📖 Guía completa &amp; Estrategias →</a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="seo-section">
+            <button class="seo-toggle" onclick="toggleSEO(this)" aria-expanded="false">
+                <span>Preguntas frecuentes sobre Brawl Mystery</span>
+                <svg class="seo-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="seo-content" hidden>
+                <div class="seo-inner">
+                    <div class="faq-item" onclick="this.classList.toggle('open')">
+                        <div class="faq-q">¿Brawl Mystery es gratuito? <i class="faq-arrow">▾</i></div>
+                        <div class="faq-a">Sí, completamente gratuito. Sin descargas ni registro – juega directamente en tu navegador.</div>
+                    </div>
+                    <div class="faq-item" onclick="this.classList.toggle('open')">
+                        <div class="faq-q">¿Cuál es la diferencia con Wordle? <i class="faq-arrow">▾</i></div>
+                        <div class="faq-a">Wordle consiste en adivinar una palabra diaria. Brawl Mystery es un <strong>quiz de Brawl Stars</strong> especializado con 4 modos donde adivinas Brawlers – mucho más variado y creado específicamente para fans de Brawl Stars.</div>
+                    </div>
+                    <div class="faq-item" onclick="this.classList.toggle('open')">
+                        <div class="faq-q">¿Cuántas veces puedo jugar al día? <i class="faq-arrow">▾</i></div>
+                        <div class="faq-a">Cada modo puede jugarse hasta 2 veces al día. Después hay una espera de 12 horas antes de que estén disponibles nuevos juegos.</div>
+                    </div>
+                    <div class="faq-item" onclick="this.classList.toggle('open')">
+                        <div class="faq-q">¿Brawl Mystery es oficial de Supercell? <i class="faq-arrow">▾</i></div>
+                        <div class="faq-a">No. Brawl Mystery es un proyecto de fans no oficial sin afiliación con Supercell Oy. Brawl Stars™ es una marca registrada de Supercell.</div>
+                    </div>
+                    <div class="faq-item" onclick="this.classList.toggle('open')">
+                        <div class="faq-q">¿Puedo jugar en el móvil? <i class="faq-arrow">▾</i></div>
+                        <div class="faq-a">¡Sí! El juego está totalmente optimizado para móvil y funciona en cualquier navegador sin instalar ninguna app.</div>
+                    </div>
+                    <div class="faq-item" onclick="this.classList.toggle('open')">
+                        <div class="faq-q">¿Qué modo es el más difícil? <i class="faq-arrow">▾</i></div>
+                        <div class="faq-a">El Modo Descripción es el más desafiante, ya que solo se revelan pocas palabras a la vez. El Modo Clásico es ideal para principiantes porque ofrece más información de retorno.</div>
+                    </div>
                 </div>
             </div>
         </section>
