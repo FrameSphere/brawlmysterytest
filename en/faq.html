@@ -23,66 +23,13 @@
       "url": "https://brawlmystery.pages.dev/en/faq.html",
       "inLanguage": "en",
       "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Brawl Mystery?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Brawl Mystery is a free, daily online quiz for Brawl Stars fans. Every day there's a secret Brawler to guess across 4 game modes: Classic, Pixel, Emoji and Description." }
-        },
-        {
-          "@type": "Question",
-          "name": "Is Brawl Mystery free to play?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes, Brawl Mystery is completely free. No download or account required – just open it in your browser and start playing." }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between Brawl Mystery and Wordle?",
-          "acceptedAnswer": { "@type": "Answer", "text": "While Wordle focuses on guessing a daily word, Brawl Mystery is a dedicated Brawl Stars quiz with 4 game modes. Instead of letters, you guess Brawlers using stats, pixel images, emojis, and character descriptions." }
-        },
-        {
-          "@type": "Question",
-          "name": "How many times can I play per day?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Each of the 4 game modes can be played up to 2 times per day. After that, there is a 12-hour cooldown before new games are available." }
-        },
-        {
-          "@type": "Question",
-          "name": "How many guesses do I get per mode?",
-          "acceptedAnswer": { "@type": "Answer", "text": "You have 8 attempts per mode to guess the correct Brawler. With each wrong guess you receive more clues – the image becomes clearer in Pixel Mode, more emojis are revealed in Emoji Mode, and more words appear in Description Mode." }
-        },
-        {
-          "@type": "Question",
-          "name": "Which mode is best for beginners?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Classic Mode is ideal for beginners. The comparison table gives detailed feedback after every guess and helps you learn Brawler properties systematically." }
-        },
-        {
-          "@type": "Question",
-          "name": "Which mode is the hardest?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Description Mode is considered the hardest, as only a few words from the official character description are revealed at a time. It rewards players with deep Brawl Stars lore knowledge." }
-        },
-        {
-          "@type": "Question",
-          "name": "What does the arrow ↑ or ↓ mean in Classic Mode?",
-          "acceptedAnswer": { "@type": "Answer", "text": "↑ means the target Brawler has a HIGHER value than your guess. ↓ means the target Brawler has a LOWER value. A green cell means you got that attribute exactly right." }
-        },
-        {
-          "@type": "Question",
-          "name": "Is Brawl Mystery officially made by Supercell?",
-          "acceptedAnswer": { "@type": "Answer", "text": "No. Brawl Mystery is an unofficial fan project with no affiliation to Supercell Oy. Brawl Stars™ is a registered trademark of Supercell." }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I play Brawl Mystery on my phone?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes! Brawl Mystery is fully optimized for mobile devices and runs directly in your mobile browser – no app download needed." }
-        },
-        {
-          "@type": "Question",
-          "name": "Do the Brawlers change every day?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes! Every day at midnight, new random Brawlers are selected for all 4 modes. All players worldwide share the same daily challenges." }
-        },
-        {
-          "@type": "Question",
-          "name": "Is there a Brawler reference I can study?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes! The Brawler Library offers a complete overview of all current Brawlers with their stats – perfect for studying before playing." }
-        }
+        { "@type": "Question", "name": "What is Brawl Mystery?", "acceptedAnswer": { "@type": "Answer", "text": "Brawl Mystery is a free, daily online quiz for Brawl Stars fans. Every day a secret Brawler must be guessed in 4 game modes: Classic, Pixel, Emoji and Description." } },
+        { "@type": "Question", "name": "Is Brawl Mystery free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, completely free. No download or account required – just open it in your browser and play." } },
+        { "@type": "Question", "name": "What is the difference between Brawl Mystery and Wordle?", "acceptedAnswer": { "@type": "Answer", "text": "Wordle is about guessing a daily word. Brawl Mystery is a dedicated Brawl Stars quiz with 4 game modes where you guess Brawlers using stats, pixel images, emojis, and descriptions." } },
+        { "@type": "Question", "name": "How many times can I play per day?", "acceptedAnswer": { "@type": "Answer", "text": "Each mode can be played up to 2 times per day. After that there is a 12-hour cooldown." } },
+        { "@type": "Question", "name": "Is Brawl Mystery officially made by Supercell?", "acceptedAnswer": { "@type": "Answer", "text": "No. Brawl Mystery is an unofficial fan project with no affiliation to Supercell Oy. Brawl Stars™ is a registered trademark of Supercell." } },
+        { "@type": "Question", "name": "How many guesses do I get?", "acceptedAnswer": { "@type": "Answer", "text": "You get 8 guesses per mode. Each wrong guess reveals more clues." } },
+        { "@type": "Question", "name": "What does ↑ or ↓ mean in Classic Mode?", "acceptedAnswer": { "@type": "Answer", "text": "↑ means the target Brawler has a HIGHER value. ↓ means LOWER. A green cell means exact match." } }
       ]
     }
     </script>
@@ -112,99 +59,99 @@
 
             <h2>General Questions</h2>
 
-            <div class="faq-item" onclick="this.classList.toggle('open')">
-                <div class="faq-q">What is Brawl Mystery? <span>▾</span></div>
-                <div class="faq-a">Brawl Mystery is a free, daily online quiz for <strong>Brawl Stars</strong> fans. Every day a secret Brawler is selected for each of the 4 game modes: <strong>Classic, Pixel, Emoji and Description</strong>. Inspired by Wordle, but built exclusively for Brawl Stars with four completely different mechanics.</div>
-            </div>
+            <details class="faq-item">
+                <summary>What is Brawl Mystery? <i class="faq-arrow">▾</i></summary>
+                <div class="faq-a">Brawl Mystery is a free, daily online quiz for <strong>Brawl Stars</strong> fans. Every day a secret Brawler is selected for each of the 4 game modes: <strong>Classic, Pixel, Emoji and Description</strong>. Inspired by Wordle, but with four completely different mechanics.</div>
+            </details>
 
-            <div class="faq-item" onclick="this.classList.toggle('open')">
-                <div class="faq-q">Is Brawl Mystery free? <span>▾</span></div>
+            <details class="faq-item">
+                <summary>Is Brawl Mystery free? <i class="faq-arrow">▾</i></summary>
                 <div class="faq-a">Yes, completely free. No download, no registration, no subscription – just open the website and play immediately.</div>
-            </div>
+            </details>
 
-            <div class="faq-item" onclick="this.classList.toggle('open')">
-                <div class="faq-q">Can I play on my smartphone? <span>▾</span></div>
+            <details class="faq-item">
+                <summary>Can I play on my smartphone? <i class="faq-arrow">▾</i></summary>
                 <div class="faq-a">Yes! Brawl Mystery is fully optimized for mobile and runs directly in your mobile browser. No app download needed – just visit <strong>brawlmystery.pages.dev</strong>.</div>
-            </div>
+            </details>
 
-            <div class="faq-item" onclick="this.classList.toggle('open')">
-                <div class="faq-q">What's the difference between Brawl Mystery and Wordle? <span>▾</span></div>
-                <div class="faq-a">Wordle is about guessing a daily word from letters. Brawl Mystery is a dedicated <strong>Brawl Stars guessing game</strong> with 4 entirely different modes – you guess Brawlers using stats, pixel images, emojis, or character descriptions. Far more variety, and made specifically for Brawl Stars fans.</div>
-            </div>
+            <details class="faq-item">
+                <summary>What's the difference between Brawl Mystery and Wordle? <i class="faq-arrow">▾</i></summary>
+                <div class="faq-a">Wordle is about guessing a daily word from letters. Brawl Mystery is a dedicated <strong>Brawl Stars guessing game</strong> with 4 entirely different modes – you guess Brawlers using stats, pixel images, emojis, or character descriptions.</div>
+            </details>
 
-            <div class="faq-item" onclick="this.classList.toggle('open')">
-                <div class="faq-q">Is Brawl Mystery officially made by Supercell? <span>▾</span></div>
+            <details class="faq-item">
+                <summary>Is Brawl Mystery officially made by Supercell? <i class="faq-arrow">▾</i></summary>
                 <div class="faq-a">No. Brawl Mystery is an unofficial fan project with no affiliation to Supercell Oy. Brawl Stars™ is a registered trademark of Supercell. Use is covered under the Supercell Fan Content Policy.</div>
-            </div>
+            </details>
 
             <h2>Rules &amp; Limits</h2>
 
-            <div class="faq-item" onclick="this.classList.toggle('open')">
-                <div class="faq-q">How many times can I play per day? <span>▾</span></div>
-                <div class="faq-a">Each of the 4 modes can be played up to <strong>2 times per day</strong>. After using all attempts, there's a 12-hour cooldown before new games unlock.</div>
-            </div>
+            <details class="faq-item">
+                <summary>How many times can I play per day? <i class="faq-arrow">▾</i></summary>
+                <div class="faq-a">Each of the 4 modes can be played up to <strong>2 times per day</strong>. After that there's a 12-hour cooldown before new games unlock.</div>
+            </details>
 
-            <div class="faq-item" onclick="this.classList.toggle('open')">
-                <div class="faq-q">How many guesses do I get? <span>▾</span></div>
-                <div class="faq-a">You get <strong>8 guesses</strong> per mode. Each wrong guess reveals more clues – the image gets clearer in Pixel Mode, more emojis appear in Emoji Mode, and more words show up in Description Mode.</div>
-            </div>
+            <details class="faq-item">
+                <summary>How many guesses do I get? <i class="faq-arrow">▾</i></summary>
+                <div class="faq-a">You get <strong>8 guesses</strong> per mode. Each wrong guess reveals more clues – the image gets clearer in Pixel Mode, more emojis appear in Emoji Mode, and more words show in Description Mode.</div>
+            </details>
 
-            <div class="faq-item" onclick="this.classList.toggle('open')">
-                <div class="faq-q">Do the Brawlers change every day? <span>▾</span></div>
+            <details class="faq-item">
+                <summary>Do the Brawlers change every day? <i class="faq-arrow">▾</i></summary>
                 <div class="faq-a">Yes! New random Brawlers are selected at midnight for all 4 modes. All players worldwide share the <strong>same daily challenges</strong>.</div>
-            </div>
+            </details>
 
-            <div class="faq-item" onclick="this.classList.toggle('open')">
-                <div class="faq-q">Can the same Brawler appear in multiple modes on the same day? <span>▾</span></div>
-                <div class="faq-a">Yes, it's possible. The daily Brawlers are selected independently per mode, so the same Brawler can appear as the mystery in more than one mode on the same day.</div>
-            </div>
+            <details class="faq-item">
+                <summary>Can the same Brawler appear in multiple modes on the same day? <i class="faq-arrow">▾</i></summary>
+                <div class="faq-a">Yes, it's possible. The daily Brawlers are selected independently per mode.</div>
+            </details>
 
             <h2>The 4 Game Modes</h2>
 
-            <div class="faq-item" onclick="this.classList.toggle('open')">
-                <div class="faq-q">Which mode is best for beginners? <span>▾</span></div>
-                <div class="faq-a"><strong>Classic Mode</strong> is ideal for beginners. The comparison table gives you clear feedback after every guess – whether the target Brawler's values are higher or lower than yours – so you can narrow it down systematically.</div>
-            </div>
+            <details class="faq-item">
+                <summary>Which mode is best for beginners? <i class="faq-arrow">▾</i></summary>
+                <div class="faq-a"><strong>Classic Mode</strong> is ideal for beginners. The comparison table gives you clear feedback after every guess – whether the target Brawler's values are higher or lower.</div>
+            </details>
 
-            <div class="faq-item" onclick="this.classList.toggle('open')">
-                <div class="faq-q">What does ↑ or ↓ mean in Classic Mode? <span>▾</span></div>
-                <div class="faq-a"><strong>↑</strong> means the target Brawler has a HIGHER value than your guess. <strong>↓</strong> means it's LOWER. A green cell means that attribute is an exact match!</div>
-            </div>
+            <details class="faq-item">
+                <summary>What does ↑ or ↓ mean in Classic Mode? <i class="faq-arrow">▾</i></summary>
+                <div class="faq-a"><strong>↑</strong> means the target Brawler has a HIGHER value than your guess. <strong>↓</strong> means LOWER. A green cell means exact match!</div>
+            </details>
 
-            <div class="faq-item" onclick="this.classList.toggle('open')">
-                <div class="faq-q">Which mode is the hardest? <span>▾</span></div>
-                <div class="faq-a"><strong>Description Mode</strong> is the toughest – only a handful of words from the official character description are shown at first. It rewards players with deep knowledge of Brawl Stars lore.</div>
-            </div>
+            <details class="faq-item">
+                <summary>Which mode is the hardest? <i class="faq-arrow">▾</i></summary>
+                <div class="faq-a"><strong>Description Mode</strong> is the toughest – only a handful of words from the official character description are shown at first. It rewards deep Brawl Stars lore knowledge.</div>
+            </details>
 
-            <div class="faq-item" onclick="this.classList.toggle('open')">
-                <div class="faq-q">Where do the emojis in Emoji Mode come from? <span>▾</span></div>
-                <div class="faq-a">The emojis are hand-picked to reference the Brawler's weapon, personality, appearance or backstory. They're not taken directly from the game but chosen specifically for Brawl Mystery.</div>
-            </div>
+            <details class="faq-item">
+                <summary>Where do the emojis in Emoji Mode come from? <i class="faq-arrow">▾</i></summary>
+                <div class="faq-a">The emojis are hand-picked to reference the Brawler's weapon, personality, appearance or backstory. They're chosen specifically for Brawl Mystery.</div>
+            </details>
 
-            <div class="faq-item" onclick="this.classList.toggle('open')">
-                <div class="faq-q">Where do the character descriptions come from? <span>▾</span></div>
-                <div class="faq-a">The texts are the official character descriptions from Brawl Stars. The more you know about Brawler lore and backstories, the faster you'll recognize them in Description Mode.</div>
-            </div>
+            <details class="faq-item">
+                <summary>Where do the character descriptions come from? <i class="faq-arrow">▾</i></summary>
+                <div class="faq-a">The texts are the official character descriptions from Brawl Stars. The more you know about Brawler lore, the faster you'll recognize them in Description Mode.</div>
+            </details>
 
             <h2>Brawlers &amp; Content</h2>
 
-            <div class="faq-item" onclick="this.classList.toggle('open')">
-                <div class="faq-q">Which Brawlers are included? <span>▾</span></div>
+            <details class="faq-item">
+                <summary>Which Brawlers are included? <i class="faq-arrow">▾</i></summary>
                 <div class="faq-a">Brawl Mystery includes all official Brawlers from Brawl Stars, from Starter Brawlers like Shelly to Ultra Legendary ones. The <a href="library.html">Brawler Library</a> has a full overview with all their stats.</div>
-            </div>
+            </details>
 
-            <div class="faq-item" onclick="this.classList.toggle('open')">
-                <div class="faq-q">Is the Brawler Library updated when new Brawlers are released? <span>▾</span></div>
-                <div class="faq-a">Yes! The <a href="library.html">Brawler Library</a> and the game are updated regularly when Supercell adds new Brawlers to Brawl Stars. New Brawlers are then added to the daily quiz pool as well.</div>
-            </div>
+            <details class="faq-item">
+                <summary>Is the Brawler Library updated when new Brawlers release? <i class="faq-arrow">▾</i></summary>
+                <div class="faq-a">Yes! The <a href="library.html">Brawler Library</a> and the game are updated regularly when Supercell adds new Brawlers to Brawl Stars.</div>
+            </details>
 
-            <div class="faq-item" onclick="this.classList.toggle('open')">
-                <div class="faq-q">Any tips for finding the right Brawler faster? <span>▾</span></div>
-                <div class="faq-a">In Classic Mode, start with a mid-rarity Brawler (e.g. Epic) and use the arrows as a binary search. In Pixel Mode, focus on color schemes and silhouettes. In Emoji Mode, memorize common emoji combinations for well-known Brawlers. Find the full strategy guide <a href="guide.html">here</a>.</div>
-            </div>
+            <details class="faq-item">
+                <summary>Any tips for guessing faster? <i class="faq-arrow">▾</i></summary>
+                <div class="faq-a">In Classic Mode, start with a mid-rarity Brawler (e.g. Epic) and use the arrows as a binary search. In Pixel Mode, focus on color schemes and silhouettes. Find the full strategy guide <a href="guide.html">here</a>.</div>
+            </details>
 
             <div class="tip-box">
-                <strong>💡 Pro Tip:</strong> Study the <a href="library.html">Brawler Library</a> before playing – knowing all Brawler rarities and roles off the top of your head is the single biggest advantage in Classic Mode!
+                <strong>💡 Pro Tip:</strong> Study the <a href="library.html">Brawler Library</a> before playing – knowing all Brawler rarities and roles is the single biggest advantage in Classic Mode!
             </div>
 
             <div style="margin-top: 32px; text-align: center;">
@@ -212,7 +159,7 @@
                 &nbsp;
                 <a href="guide.html" class="seo-link-btn" style="font-size:1rem; padding:12px 24px;">📖 Full Guide →</a>
             </div>
-        </div><!-- /.guide-body-wrap -->
+        </div>
     </div>
 
     <footer class="footer" style="margin-top:0;">

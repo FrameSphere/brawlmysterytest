@@ -1,7 +1,5 @@
 /* ============================================
    SEO PAGES – Guide & further SEO content pages
-   Used by: de/guide.html, en/guide.html,
-            fr/guide.html, es/guide.html, it/guide.html
    ============================================ */
 
 /* ── Guide Layout ── */
@@ -11,7 +9,6 @@
     padding: 20px 16px 40px;
 }
 
-/* Contrast backdrop for guide text */
 .guide-container > *:not(.back-bar) {
     position: relative;
 }
@@ -116,15 +113,15 @@
     color: var(--accent);
 }
 
-/* ── FAQ ── */
-.faq-item {
+/* ── FAQ – native details/summary ── */
+details.faq-item {
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 10px;
     margin-bottom: 12px;
     overflow: hidden;
 }
 
-.faq-q {
+details.faq-item summary {
     padding: 14px 16px;
     cursor: pointer;
     color: var(--text-primary);
@@ -133,22 +130,34 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    list-style: none;
+    user-select: none;
 }
 
-.faq-q:hover {
+/* Remove default triangle in all browsers */
+details.faq-item summary::-webkit-details-marker { display: none; }
+details.faq-item summary::marker { display: none; }
+
+details.faq-item summary:hover {
     color: var(--accent);
 }
 
-.faq-a {
+details.faq-item summary .faq-arrow {
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.35);
+    font-style: normal;
+    transition: transform 0.25s ease;
+}
+
+details.faq-item[open] summary .faq-arrow {
+    transform: rotate(180deg);
+}
+
+details.faq-item .faq-a {
     padding: 0 16px 14px;
     color: var(--text-secondary);
     font-size: 0.9rem;
     line-height: 1.7;
-    display: none;
-}
-
-.faq-item.open .faq-a {
-    display: block;
 }
 
 /* ── Hidden schema helper ── */
