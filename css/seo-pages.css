@@ -154,6 +154,7 @@ details.faq-item[open] summary .faq-arrow {
 }
 
 details.faq-item .faq-a {
+    display: block; /* override style.css .faq-a { display:none } */
     padding: 0 16px 14px;
     color: var(--text-secondary);
     font-size: 0.9rem;
